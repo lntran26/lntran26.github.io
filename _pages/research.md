@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
 Current Research
 ======
 1. Improving the computational efficiency of demographic inference from allele frequency spectra with supervised machine learning
