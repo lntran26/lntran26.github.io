@@ -11,30 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Chemistry, Bryn Mawr College, 2016
+* Ph.D in Genetics, University of Arizona, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2020 - now: Research Assistant
+  * University of Arizona
+  * Supervisor: Professor Ryan Gutenkunst
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Mar 2019 - Apr 2020: Research Assistant
+  * University of Arizona
+  * Supervisor: Professor Felicia Goodrum
+
+* Jul 2016 - Jul 2018: Lab Technician
+  * University of Pennsylvania
+  * Supervisor: Dr. Sally Mallory
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, R, HPC, bash, java
+* Certified [Carpentries](https://carpentries.org/) Instructor
 
 Publications
 ======
@@ -56,4 +53,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Data Science Ambassador
