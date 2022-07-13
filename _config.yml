@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Linh Tran"
   avatar           : "LinhTran.png"
-  bio              : "Genetics Ph.D. Candidate at UArizona (lnt@email.arizona.edu)"
+  bio              : "Genetics Ph.D. Candidate at UArizona (lnt@arizona.edu)"
   location         : "Tucson, AZ"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=-bxtXDEAAAAJ&hl=en"
-  email            : "lnt@email.arizona.edu"
+  email            : "lnt@arizona.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
