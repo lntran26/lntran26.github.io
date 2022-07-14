@@ -7,9 +7,9 @@ author_profile: true
 
 Current Research
 ======
-### Improving the computational efficiency of demographic inference from allele frequency spectra with supervised machine learning
+### Improving the computational efficiency of demographic inference from allele frequency spectra (AFS) with supervised machine learning
 
-Our group had previously developed the software package [dadi](https://dadi.readthedocs.io/en/latest/) for inferring demography that supports a wide range of demographic models but expensive likelihood computation limits scalability. We can bypass this bottleneck and improve efficiency by employing likelihood-free approaches such as neural network (NN) algorithms. I'm developing a NN-based method for inferring all demographic models currently supported by dadi, and generate a suite of estimators that can accurately and instantaneously infer various demographic parameters. These NN-based estimators will offer significant improvement in computational efficiency without compromising inference accuracy. Additionally, our trained estimators will incorporate an accompanying method to quantify the uncertainty around each estimated parameter, a feature currently lacking in most NN-based inference methods.
+[Our research group](https://gutengroup.arizona.edu/) had previously developed the software package [dadi](https://dadi.readthedocs.io/en/latest/) for inferring demographic history using the diffusion approximation and composite likelihood. Inferring demography with dadi involves likelihood optimization, which can be very computationally expensive. In this project, we aim to improve the ease of use and lower the computational burden for dadi users with likelihood-free supervised machine learning. We trained a suit of multilayer perceptron regressors on dadi-simulated data and demonstrated that they can accurately and instantaneously predict various demographic parameters from input AFS. These trained regressors, therefore, offer significant improvement in computational efficiency without compromising accuracy. We also incorporate an accompanying method to quantify the uncertainty around each parameter prediction, a feature often lacking in most machine learning methods.
 
   * Conference presentations: 
      * [SMBE22 Talk](https://github.com/lntran26/lntran26.github.io/blob/ce5c17d6de820050066c1c44ac23f17a2773a052/files/talk_smbe22.pdf)
@@ -19,9 +19,9 @@ Our group had previously developed the software package [dadi](https://dadi.read
 
 
 
-### Developing a novel image-based CNN method for inferring the distribution of fitness effects (DFE) from single nucleotide polymorphism (SNP) alignments
+### Developing a novel method for inferring the distribution of fitness effects (DFE) from single nucleotide polymorphism (SNP) alignments
 
-The DFE of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is central to the mechanisms of many biological processes. All existing methods infer the DFE from summary statistics derived from SNP data, leading to unavoidable information loss. Several groups have developed NN-based methods to directly process SNP alignments, but none has applied it to DFE inference. I plan to build upon this SNP alignment based approach and further adapt it to the task of inferring the DFE. Our approach will incorporate functional features such as classification of synonymous and non-synonymous variants in the data representation. This novel approach to data representation is expected to be more informative and powerful than existing frequency-spectrum-based DFE inference methods.
+The DFE of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is central to many biological and evolutionary processes. Existing methods for DFE inference typically summarize the input genomic data into allele frequency spectra (AFS), which ignore patterns of linkage among SNPs in the data. Several groups have previously developed CNN-based methods to directly process SNP alignments that include linkage information, but none has applied it to DFE inference. In this project, we will build upon this SNP alignment based approach and further adapt it to the task of inferring the DFE. Our method will also incorporate more features in the data representation, such as the classification of synonymous versus non-synonymous variants. This novel approach to data representation is expected to be more informative and powerful than existing AFS-based DFE inference methods.
 
 Past Research
 ======
