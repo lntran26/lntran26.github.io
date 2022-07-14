@@ -51,6 +51,6 @@ Publications
   
 Service and leadership
 ======
-* Data Science Ambassador
-* Women in Data Science (WiDS) Tucson
+* University of Arizona Data Science Ambassador
+* Women in Data Science (WiDS) Tucson Organizer
 * Math and Science Summer Program in Vietnam (MaSSP) Biology Head Mentor
