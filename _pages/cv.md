@@ -32,17 +32,6 @@ Research & Professional experience
   * Bryn Mawr College, Department of Chemistry
   * Supervisor: Professor Yan Kung
   
-Skills
-======
-* Programming: Python, R, HPC, bash, java
-* Certified [Carpentries](https://carpentries.org/) Instructor
-  
-Conference Presentations
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -51,6 +40,11 @@ Publications
   
 Service and leadership
 ======
-* University of Arizona Data Science Ambassador
-* Women in Data Science (WiDS) Tucson Organizer
-* Math and Science Summer Program in Vietnam (MaSSP) Biology Head Mentor
+* University of Arizona [Data Science Ambassador](https://datascience.arizona.edu/dsa)
+* Women in Data Science ([WiDS](https://widstucson.org/)) Tucson Datathon Event
+* Math and Science Summer Program in Vietnam ([MaSSP](https://en.masspvn.com/)) Biology Head Mentor
+
+Skills
+======
+* Programming: Python, R, HPC, Bash, Java, LaTeX
+* Certified [Carpentries](https://carpentries.org/) Instructor
