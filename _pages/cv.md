@@ -41,7 +41,7 @@ Publications
 Service and leadership
 ======
 * University of Arizona [Data Science Ambassador](https://datascience.arizona.edu/dsa)
-* Women in Data Science ([WiDS](https://widstucson.org/)) Tucson Datathon Event
+* Women in Data Science ([WiDS](https://widstucson.org/)) Tucson Datathon Workshop Organizer
 * Math and Science Summer Program in Vietnam ([MaSSP](https://en.masspvn.com/)) Biology Head Mentor
 
 Skills
