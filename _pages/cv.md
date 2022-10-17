@@ -9,23 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Research & Professional experience
+Experience
 ======
-* May 2020 - now: Graduate Research Assistant
+* May 2020 - now: Graduate Research Assistant in Computational Genomics
   * University of Arizona, Genetics Graduate Interdisciplinary Program
   * Supervisor: Dr. Ryan Gutenkunst
 
-* Aug 2018 - Apr 2020: Graduate Research Assistant
-  * University of Arizona, Arizona Biological and Biomedical Sciences
+* Aug 2018 - Apr 2020: Graduate Research Assistant in Molecular Biology and Virology
+  * University of Arizona, Arizona Biological and Biomedical Sciences Program
   * Supervisor(s): Drs. Felicia Goodrum, Rebecca Page, Jared Churko
 
-* Jul 2016 - Jul 2018: Lab Technician
+* Jul 2016 - Jul 2018: Organic Chemistry Lab Technician
   * University of Pennsylvania, Department of Chemistry
   * Supervisor(s): Dr. Sally Mallory and Dr. Jisun Lee
   
-* Aug 2015 - May 2016: Undergraduate Research Assistant
-  * Bryn Mawr College, Department of Chemistry
-  * Supervisor: Dr. Yan Kung
+* 2014 - 2016: Chemistry Teaching Assistant
+  * Bryn Mawr College, Chemistry Department       
+  * CHEM B103 & B104: General Chemistry I & II
+  * CHEM B211 & B212: Organic Chemistry I & II
 
 Education
 ======
