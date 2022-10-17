@@ -43,7 +43,7 @@ Service and leadership
 
 Skills
 ======
-* Programming: Python, Bash, Git, High Performance Computing, R, Java, LaTeX
+* Programming: Python, Bash, Git, High Performance Computing, snakemake, R, Java, LaTeX
 * Certified [Carpentries](https://carpentries.org/) Instructor
 * Languages: Vietnamese, English, Korean, Mandarin Chinese
   
