@@ -18,6 +18,9 @@ Current Projects
   * Github Repo: [lntran26/dadi-ml](https://github.com/lntran26/dadi-ml)
 
 
+### stdpopsim: a community-maintained standard library of population genetic models
+[The PopSim Consortium](https://github.com/popsim-consortium) is an open-source collaborative project with the goal of providing standardized simulation models and simulation engine backends for the population genetic research community. I'm currently contributing to the development of an analysis pipeline for demography inference with natural selection [here](https://github.com/popsim-consortium/analysis2).
+
 
 ### Developing a novel method for inferring the distribution of fitness effects (DFE) from single nucleotide polymorphism (SNP) alignments
 
