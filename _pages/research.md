@@ -1,11 +1,11 @@
 ---
 layout: archive
 title: ""
-permalink: /research/
+permalink: /projects/
 author_profile: true
 ---
 
-Current Research
+Current Projects
 ======
 ### Improving the computational efficiency of demographic inference from allele frequency spectra (AFS) with supervised machine learning
 
@@ -23,7 +23,7 @@ Current Research
 
 The DFE of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is central to many biological and evolutionary processes. Existing methods for DFE inference typically summarize the input genomic data into allele frequency spectra (AFS), which ignore patterns of linkage among SNPs in the data. Several groups have previously developed CNN-based methods to directly process SNP alignments that include linkage information, but none has applied it to DFE inference. In this project, we will build upon this SNP alignment based approach and further adapt it to the task of inferring the DFE. Our method will also incorporate more features in the data representation, such as the classification of synonymous versus non-synonymous variants. This novel approach to data representation is expected to be more informative and powerful than existing AFS-based DFE inference methods.
 
-Past Research
+Past Project
 ======
 ### Viral and host determinants of human-cytomegalovirus-induced myelosuppression in hematopoietic progenitor cells
 
