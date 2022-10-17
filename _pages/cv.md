@@ -9,34 +9,30 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.A. in Chemistry, Bryn Mawr College, 2016
-* Ph.D in Genetics, University of Arizona, 2024 (expected)
-
 Research & Professional experience
 ======
 * May 2020 - now: Graduate Research Assistant
-  * University of Arizona, Genetics GIDP
-  * Supervisor: Professor Ryan Gutenkunst
+  * University of Arizona, Genetics Graduate Interdisciplinary Program
+  * Supervisor: Dr. Ryan Gutenkunst
 
 * Aug 2018 - Apr 2020: Graduate Research Assistant
-  * University of Arizona, ABBS/GPMM
-  * Supervisor(s): Professor(s) Felicia Goodrum, Rebecca Page, Jared Churko
+  * University of Arizona, Arizona Biological and Biomedical Sciences
+  * Supervisor(s): Drs. Felicia Goodrum, Rebecca Page, Jared Churko
 
 * Jul 2016 - Jul 2018: Lab Technician
   * University of Pennsylvania, Department of Chemistry
-  * Supervisor(s): Dr. Sally Mallory, Dr. Jisun Lee
+  * Supervisor(s): Dr. Sally Mallory and Dr. Jisun Lee
   
 * Aug 2015 - May 2016: Undergraduate Research Assistant
   * Bryn Mawr College, Department of Chemistry
-  * Supervisor: Professor Yan Kung
-  
-Publications
+  * Supervisor: Dr. Yan Kung
+
+Education
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Ph.D in Genetics, University of Arizona, 2024 (expected)
+  * Minors: Ecology & Evolutionary Biology, Molecular Medicine
+* B.A. in Chemistry, Bryn Mawr College, 2016
+  * Concentration: Biochemistry 
   
 Service and leadership
 ======
@@ -46,5 +42,13 @@ Service and leadership
 
 Skills
 ======
-* Programming: Python, R, HPC, Bash, Java, LaTeX
+* Programming: Python, Bash, Git, High Performance Computing, R, Java, LaTeX
 * Certified [Carpentries](https://carpentries.org/) Instructor
+* Languages: Vietnamese, English, Korean, Mandarin Chinese
+  
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
