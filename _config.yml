@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Linh Tran"
 title_separator          : "-"
-name                     : &name "Linh Tran"
-description              : &description "Genetics Ph.D. Candidate at UArizona"
+name                     : &name "Linh Tran, Ph.D."
+description              : &description "Incoming Postdoctoral Scholar at University of Washington"
 url                      : https://lntran26.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lntran26/lntran26.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Linh Tran"
+  name             : "Linh Tran, Ph.D."
   avatar           : "LinhTran.png"
-  bio              : "Genetics Ph.D. Candidate at UArizona (lnt@arizona.edu)"
-  location         : "Vancouver, BC"
+  bio              : "Incoming Postdoctoral Scholar at University of Washington"
+  location         : "Seattle, WA & Vancouver, BC"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=-bxtXDEAAAAJ&hl=en"
-  email            : "lnt@arizona.edu"
+  email            : "hlinh.tran26@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "linhngohoangtran"
+  linkedin         : "linhnhtran"
   orcid            : "http://orcid.org/0000-0003-0574-0887"
   pinterest        :
   soundcloud       :
