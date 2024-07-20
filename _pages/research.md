@@ -16,7 +16,16 @@ Inferring past demographic history of natural populations from genomic data is o
      * [PEQG22 Poster](https://github.com/lntran26/lntran26.github.io/blob/ce5c17d6de820050066c1c44ac23f17a2773a052/files/poster_peqg22.pdf)
      * [ProbGen23 Poster](https://github.com/lntran26/lntran26.github.io/blob/cad07df03dfb99264b8a048a2f25c0503b0cda5a/files/PROBGEN_23_Tran.pdf)
   * Github Repo: [lntran26/donni](https://github.com/lntran26/donni)
-  * Publication: Tran, L. N., Sun, C. K., Struck, T. J., Sajan, M., & Gutenkunst, R. N. (2023). Computationally efficient demographic history inference from allele frequencies with supervised machine learning. bioRxiv. [link](https://www.biorxiv.org/content/10.1101/2023.05.24.542158v2)
+  * Publication: Tran, Linh N., et al. "Computationally efficient demographic history inference from allele frequencies with supervised machine learning." Molecular Biology and Evolution 41.5 (2024): msae077. [link](https://academic.oup.com/mbe/article/41/5/msae077/7651223)
+
+### ConfuseNN: Interpreting convolutional neural networks inferences in population genomics by data shuffling
+
+Convolutional neural network (CNN) is an increasingly popular supervised machine learning approach that has been applied to many inference tasks in population genetics. Under this framework, population genomic variation data are typically represented as 2D images with sampled haplotypes as rows and segregating sites as columns. While many published studies reported promising performance of CNNs on various inference tasks, understanding which features in the data were picked up by the CNNs and meaningfully contributed to the reported performance remains challenging. In this work, I implement a novel approach to interpreting CNN performance motivated by population genetic theory on genomic data. The final product is a suite of scramble tests where each test deliberately disrupts a feature in the genomic image data (e.g. allele frequency, linkage disequilibrium, etc.) to assess how each feature affects the CNN performance. I apply these tests to three networks designed to infer demographic history and natural selection, identifying the fundamental population genomic features that drive inference for each network.
+
+  * Conference presentations:
+     * [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
+     * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
+  * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
 
 ### DFEnn: Inferring the distribution of fitness effects (DFE) of deleterious mutations using convolutional neural network and a novel genomic data representation with functional annotations
 
@@ -25,14 +34,6 @@ The distribution of fitness effects (DFE) of new mutations quantifies the input 
   * Conference presentations: 
      * [ASHG23 Talk](https://github.com/lntran26/lntran26.github.io/blob/1ce0360190b2b543149041065fe9085eaf6578b7/files/LNT_ASHG_final.pdf)
   * Github Repo: [lntran26/dfenn](https://github.com/lntran26/dfenn)
-
-### ConfuseNN: Interpreting convolutional neural networks inferences in population genomics by data shuffling
-
-Convolutional neural network (CNN) is an increasingly popular supervised machine learning approach that has been applied to many inference tasks in population genetics. Under this framework, population genomic variation data are typically represented as 2D images with sampled haplotypes as rows and segregating sites as columns. While many published studies reported promising performance of CNNs on various inference tasks, understanding which features in the data were picked up by the CNNs and meaningfully contributed to the reported performance remains challenging. In this work, I implement a novel approach to interpreting CNN performance motivated by population genetic theory on genomic data. The final product is a suite of scramble tests where each test deliberately disrupts a feature in the genomic image data (e.g. allele frequency, linkage disequilibrium, etc.) to assess how each feature affects the CNN performance. I apply these tests to three networks designed to infer demographic history and natural selection, identifying the fundamental population genomic features that drive inference for each network.
-
-  * Conference presentations: 
-     * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
-  * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
 
 Side Projects
 ======
