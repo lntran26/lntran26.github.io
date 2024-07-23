@@ -26,14 +26,7 @@ Convolutional neural network (CNN) is an increasingly popular supervised machine
      * [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
      * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
   * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
-
-### DFEnn: Inferring the distribution of fitness effects (DFE) of deleterious mutations using convolutional neural network and a novel genomic data representation with functional annotations
-
-The distribution of fitness effects (DFE) of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is fundamental to evolution by natural selection. The DFE is particularly important for understanding quantitative traits, such as the genetic architecture of complex diseases. All previous studies that estimated the DFE from genetic variation data used summary statistics describing some aspects of the data, such as the allele frequency spectrum and/or linkage disequilibrium statistics. While powerful, these existing approaches either neglect substantial information from the data not included in the chosen summary statistics or demand careful curation of the appropriate set of summary statistics. Here I have been developing the first deep learning approach for DFE inference using convolutional neural network (CNN) and a novel representation of genetic variation data. Single nucleotide polymorphism (SNP) alignment is represented by a three-dimensional tensor in which each layer corresponds to a functional class, such as synonymous and nonsynonymous coding variants. With this representation, our approach allows direct processing of genetic variation data in which the CNN implicitly learns the most informative features in the data, bypassing summary statistics selection and assumption.
-
-  * Conference presentations: 
-     * [ASHG23 Talk](https://github.com/lntran26/lntran26.github.io/blob/1ce0360190b2b543149041065fe9085eaf6578b7/files/LNT_ASHG_final.pdf)
-  * Github Repo: [lntran26/dfenn](https://github.com/lntran26/dfenn)
+  * Publication: In preparation
 
 Side Projects
 ======
@@ -41,14 +34,24 @@ Side Projects
 [Our research group](https://gutengroup.arizona.edu/)'s software package [dadi](https://dadi.readthedocs.io/en/latest/) infers demographic history and the distribution of fitness effects (DFE) using the allele frequency spectra (AFS) summarized from genetic data as an input. Low-coverage genome sequencing is a popular and cost-effective method used in many studies but can introduce a significant bias into the AFS during downstream analysis. To address this problem, our lab developed a probabilistic model to account for the distortions induced by low-coverage sequencing and incorporated it into dadi. I contributed to the validation of this approach by applying it to whole-genome sequencing data from the 1000 Genomes Project and comparing its performance to an existing approach, ANGSD.
 
   * Github Repo: [lntran26/low-coverage-sfs](https://github.com/lntran26/low-coverage-sfs)
+  * Publication: Fonseca, E. M., Tran, L. N., Mendoza, H., & Gutenkunst, R. N. (2024). Modeling biases from low-pass genome sequencing to enable accurate population genetic inferences. bioRxiv. [link](https://www.biorxiv.org/content/10.1101/2024.07.19.604366v1)
 
 ### stdpopsim: a community-maintained standard library of population genetic models
 [The PopSim Consortium](https://github.com/popsim-consortium) is an open-source collaborative project with the goal of providing standardized simulation models and simulation engine backends for the population genetic research community. I'm contributing to the development of a snakemake analysis pipeline showcasing the use of stdpopsim in simulating and inferering population history and natural selection.
   
   * Github Repo: [lntran26/analysis2](https://github.com/lntran26/analysis2)
+  * Publication: In preparation
 
 Past Project
 ======
+### DFEnn: Inferring the distribution of fitness effects (DFE) of deleterious mutations using convolutional neural network and a novel genomic data representation with functional annotations
+
+The distribution of fitness effects (DFE) of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is fundamental to evolution by natural selection. The DFE is particularly important for understanding quantitative traits, such as the genetic architecture of complex diseases. All previous studies that estimated the DFE from genetic variation data used summary statistics describing some aspects of the data, such as the allele frequency spectrum and/or linkage disequilibrium statistics. While powerful, these existing approaches either neglect substantial information from the data not included in the chosen summary statistics or demand careful curation of the appropriate set of summary statistics. Here I have been developing the first deep learning approach for DFE inference using convolutional neural network (CNN) and a novel representation of genetic variation data. Single nucleotide polymorphism (SNP) alignment is represented by a three-dimensional tensor in which each layer corresponds to a functional class, such as synonymous and nonsynonymous coding variants. With this representation, our approach allows direct processing of genetic variation data in which the CNN implicitly learns the most informative features in the data, bypassing summary statistics selection and assumption.
+
+  * Conference presentations: 
+     * [ASHG23 Talk](https://github.com/lntran26/lntran26.github.io/blob/1ce0360190b2b543149041065fe9085eaf6578b7/files/LNT_ASHG_final.pdf)
+  * Github Repo: [lntran26/dfenn](https://github.com/lntran26/dfenn)
+    
 ### Viral and host determinants of human-cytomegalovirus-induced myelosuppression in hematopoietic progenitor cells
 
 Human cytomegalovirus (HCMV) is a main cause of morbidity and mortality for patients undergoing transplantation due to its suppression of hematopoiesis down the myeloid lineage (myelosuppression). The molecular mechanisms by which HCMV dysregulates hematopoietic progenitor cell (HPC) causing myelosuppression is largely unknown. We have identified a viral protein, UL135, that is required for HCMV-mediated myelosuppression of infected HPCs. A mutant virus lacking UL135 fails to induce myelosuppression compared to the wild-type virus. We have previously shown that UL135 downregulates the epidermal growth factor receptor (EGFR) expression and alters EGFR endocytic trafficking by interacting with host adaptor proteins CIN85 and Abi-1. EGFR is a major signaling hub with many downstream signaling pathways that regulate lineage-specific transcription factors and are intricately involved in many aspects of HPC maintenance and differentiation. Therefore, we hypothesize that UL135, through host interactor proteins CIN85 and Abi-1, downregulates EGFR downstream signaling and expression of myeloid-lineage-specific transcription factors, causing myelosuppression.
