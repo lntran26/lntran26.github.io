@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Linh Tran"
 title_separator          : "-"
 name                     : &name "Linh Tran, Ph.D."
-description              : &description "Incoming Postdoctoral Scholar at University of Washington"
+description              : &description "Postdoctoral Scholar at the University of Washington"
 url                      : https://lntran26.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lntran26/lntran26.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Linh Tran, Ph.D."
   avatar           : "LinhTran.png"
-  bio              : "Incoming Postdoctoral Scholar at University of Washington"
+  bio              : "Postdoctoral Scholar at the University of Washington"
   location         : "Seattle, WA & Vancouver, BC"
   employer         :
   pubmed           : 
