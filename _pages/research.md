@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-Main Projects
-======
 ### donni: Inferring population history with uncertainty quantification using Mean-Variance Estimation network
 
 Inferring past demographic history of natural populations from genomic data is of central concern in many studies across research fields. [Our research group](https://gutengroup.arizona.edu/) had previously developed the widely used software package [dadi](https://dadi.readthedocs.io/en/latest/) for inferring demographic history using allele frequency spectrum (AFS) data and maximum likelihood optimization. However, dadi's likelihood optimization procedure is computationally expensive and inefficient. Here, I led a team effort in the development of donni (demographic history optimization via neural network inference), a new inference method based on dadi that is more efficient while maintaining comparable inference accuracy to dadi. donni consists of trained regressor networks for a large collection of commonly used demographic history models along with options for advanced users to train their own networks for custom models. donni also incorporates an accompanying method to quantify the uncertainty around each inferred value, a feature often lacking in most machine learning methods.
@@ -28,22 +26,20 @@ Convolutional neural network (CNN) is an increasingly popular supervised machine
   * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
   * Publication: In preparation
 
-Side Projects
-======
 ### Validation of an approach to model the allele frequency spectra for low-coverage sequencing data
+
 [Our research group](https://gutengroup.arizona.edu/)'s software package [dadi](https://dadi.readthedocs.io/en/latest/) infers demographic history and the distribution of fitness effects (DFE) using the allele frequency spectra (AFS) summarized from genetic data as an input. Low-coverage genome sequencing is a popular and cost-effective method used in many studies but can introduce a significant bias into the AFS during downstream analysis. To address this problem, our lab developed a probabilistic model to account for the distortions induced by low-coverage sequencing and incorporated it into dadi. I contributed to the validation of this approach by applying it to whole-genome sequencing data from the 1000 Genomes Project and comparing its performance to an existing approach, ANGSD.
 
   * Github Repo: [lntran26/low-coverage-sfs](https://github.com/lntran26/low-coverage-sfs)
-  * Publication: Fonseca, E. M., Tran, L. N., Mendoza, H., & Gutenkunst, R. N. (2024). Modeling biases from low-pass genome sequencing to enable accurate population genetic inferences. bioRxiv. [link](https://www.biorxiv.org/content/10.1101/2024.07.19.604366v1)
+  * Publication: Fonseca, E. M., Tran, L. N., Mendoza, H., & Gutenkunst, R. N. (2025). Modeling biases from low-pass genome sequencing to enable accurate population genetic inferences. Molecular Biology and Evolution, 42(1), msaf002. [link](https://academic.oup.com/mbe/article/42/1/msaf002/7976825)
 
 ### stdpopsim: a community-maintained standard library of population genetic models
+
 [The PopSim Consortium](https://github.com/popsim-consortium) is an open-source collaborative project with the goal of providing standardized simulation models and simulation engine backends for the population genetic research community. I'm contributing to the development of a snakemake analysis pipeline showcasing the use of stdpopsim in simulating and inferering population history and natural selection.
   
   * Github Repo: [lntran26/analysis2](https://github.com/lntran26/analysis2)
   * Publication: In preparation
 
-Past Project
-======
 ### DFEnn: Inferring the distribution of fitness effects (DFE) of deleterious mutations using convolutional neural network and a novel genomic data representation with functional annotations
 
 The distribution of fitness effects (DFE) of new mutations quantifies the input of mutations with certain selective effects (deleterious, neutral, advantageous) into natural populations and is fundamental to evolution by natural selection. The DFE is particularly important for understanding quantitative traits, such as the genetic architecture of complex diseases. All previous studies that estimated the DFE from genetic variation data used summary statistics describing some aspects of the data, such as the allele frequency spectrum and/or linkage disequilibrium statistics. While powerful, these existing approaches either neglect substantial information from the data not included in the chosen summary statistics or demand careful curation of the appropriate set of summary statistics. Here I have been developing the first deep learning approach for DFE inference using convolutional neural network (CNN) and a novel representation of genetic variation data. Single nucleotide polymorphism (SNP) alignment is represented by a three-dimensional tensor in which each layer corresponds to a functional class, such as synonymous and nonsynonymous coding variants. With this representation, our approach allows direct processing of genetic variation data in which the CNN implicitly learns the most informative features in the data, bypassing summary statistics selection and assumption.
