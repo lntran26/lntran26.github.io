@@ -4,6 +4,27 @@ title: ""
 permalink: /projects/
 author_profile: true
 ---
+### Inferring historical tumor growth rates using mutation signatures and variant allele frequencies
+* Conference presentations:
+  * Upcoming: [Mutations in Time and Space 2025 Poster](https://broadinstitute.swoogo.com/mits2025/5970756)
+
+### ConfuseNN: Interpreting convolutional neural networks inferences in population genomics by data shuffling
+
+Convolutional neural network (CNN) is an increasingly popular supervised machine learning approach that has been applied to many inference tasks in population genetics. Under this framework, population genomic variation data are typically represented as 2D images with sampled haplotypes as rows and segregating sites as columns. While many published studies reported promising performance of CNNs on various inference tasks, understanding which features in the data were picked up by the CNNs and meaningfully contributed to the reported performance remains challenging. In this work, I implement a novel approach to interpreting CNN performance motivated by population genetic theory on genomic data. The final product is a suite of shuffle tests where each test deliberately disrupts a feature in the genomic image data (e.g. allele frequency, linkage disequilibrium, etc.) to assess how each feature affects the CNN performance. I apply these tests to three networks designed to infer demographic history and natural selection, identifying the fundamental population genomic features that drive inference for each network.
+
+  * Conference presentations:
+     * [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
+     * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
+     * Upcoming: [EVO-WIBO Poster](https://www.zoology.ubc.ca/evo-wibo/index.html)
+  * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
+  * Preprint: [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.24.644668v1)
+
+### stdpopsim: a community-maintained standard library of population genetic models
+
+[The PopSim Consortium](https://github.com/popsim-consortium) is an open-source collaborative project with the goal of providing standardized simulation models and simulation engine backends for the population genetic research community. I contributed to the development of a snakemake analysis pipeline showcasing the use of stdpopsim in simulating and inferering population history and natural selection.
+  
+  * Github Repo: [popsim-consortium/analysis2](https://github.com/popsim-consortium/analysis2)
+  * Preprint: [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.23.644823v1)
 
 ### donni: Inferring population history with uncertainty quantification using Mean-Variance Estimation network
 
@@ -16,29 +37,12 @@ Inferring past demographic history of natural populations from genomic data is o
   * Github Repo: [lntran26/donni](https://github.com/lntran26/donni)
   * Publication: Tran, Linh N., et al. "Computationally efficient demographic history inference from allele frequencies with supervised machine learning." Molecular Biology and Evolution 41.5 (2024): msae077. [link](https://academic.oup.com/mbe/article/41/5/msae077/7651223)
 
-### ConfuseNN: Interpreting convolutional neural networks inferences in population genomics by data shuffling
-
-Convolutional neural network (CNN) is an increasingly popular supervised machine learning approach that has been applied to many inference tasks in population genetics. Under this framework, population genomic variation data are typically represented as 2D images with sampled haplotypes as rows and segregating sites as columns. While many published studies reported promising performance of CNNs on various inference tasks, understanding which features in the data were picked up by the CNNs and meaningfully contributed to the reported performance remains challenging. In this work, I implement a novel approach to interpreting CNN performance motivated by population genetic theory on genomic data. The final product is a suite of scramble tests where each test deliberately disrupts a feature in the genomic image data (e.g. allele frequency, linkage disequilibrium, etc.) to assess how each feature affects the CNN performance. I apply these tests to three networks designed to infer demographic history and natural selection, identifying the fundamental population genomic features that drive inference for each network.
-
-  * Conference presentations:
-     * [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
-     * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
-  * Github Repo: [lntran26/ConfuseNN](https://github.com/lntran26/ConfuseNN)
-  * Publication: In preparation
-
 ### Validation of an approach to model the allele frequency spectra for low-coverage sequencing data
 
 [Our research group](https://gutengroup.arizona.edu/)'s software package [dadi](https://dadi.readthedocs.io/en/latest/) infers demographic history and the distribution of fitness effects (DFE) using the allele frequency spectra (AFS) summarized from genetic data as an input. Low-coverage genome sequencing is a popular and cost-effective method used in many studies but can introduce a significant bias into the AFS during downstream analysis. To address this problem, our lab developed a probabilistic model to account for the distortions induced by low-coverage sequencing and incorporated it into dadi. I contributed to the validation of this approach by applying it to whole-genome sequencing data from the 1000 Genomes Project and comparing its performance to an existing approach, ANGSD.
 
-  * Github Repo: [lntran26/low-coverage-sfs](https://github.com/lntran26/low-coverage-sfs)
+  * Github Repo: [emanuelmfonseca/low-coverage-sfs](https://github.com/emanuelmfonseca/low-coverage-sfs)
   * Publication: Fonseca, E. M., Tran, L. N., Mendoza, H., & Gutenkunst, R. N. (2025). Modeling biases from low-pass genome sequencing to enable accurate population genetic inferences. Molecular Biology and Evolution, 42(1), msaf002. [link](https://academic.oup.com/mbe/article/42/1/msaf002/7976825)
-
-### stdpopsim: a community-maintained standard library of population genetic models
-
-[The PopSim Consortium](https://github.com/popsim-consortium) is an open-source collaborative project with the goal of providing standardized simulation models and simulation engine backends for the population genetic research community. I'm contributing to the development of a snakemake analysis pipeline showcasing the use of stdpopsim in simulating and inferering population history and natural selection.
-  
-  * Github Repo: [lntran26/analysis2](https://github.com/lntran26/analysis2)
-  * Publication: In preparation
 
 ### DFEnn: Inferring the distribution of fitness effects (DFE) of deleterious mutations using convolutional neural network and a novel genomic data representation with functional annotations
 
